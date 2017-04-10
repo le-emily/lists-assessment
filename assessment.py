@@ -51,6 +51,7 @@ def print_indices(items):
     
     """
 
+    # go through each item and call .index()
     for item in items:
         print items.index(item), item
 
